@@ -1,4 +1,6 @@
-# create a docker-machine node
+# notes on docker-machine
+
+## create a docker-machine node
 
 ```bash
 docker-machine create \                                                                                                                          7:08:49
