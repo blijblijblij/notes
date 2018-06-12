@@ -1,4 +1,5 @@
 # notes on vim course
+
 `gg` goto the beginning of the file
 
 `G` goto the end of the file
@@ -40,3 +41,27 @@
 `"+P` paste system clipboard, alternatively by `:set paste`
 
 `d$` delete everything from the cursor to the end of the line
+
+`d^` or `d0` delete everything from the cursor to the start of the line
+
+`dw` delete next word
+
+`dG` delete until the end
+
+`:g/#/d` delete all lines starting with the pattern `#`!
+
+`ggVG` select all
+
+`fCHARACTER` find on this line the next CHARACTER
+
+`>>` indent to the right
+
+`<<` indent to the left
+
+`! rspec` excecute rspec on current path and return to current window
+
+## managing views / windows
+
+`sp` split horizontally
+`vsp` split vertically
+`ctrl ww` cycles though openend panes
