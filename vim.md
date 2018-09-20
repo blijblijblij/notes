@@ -63,5 +63,5 @@
 ## managing views / windows
 
 `sp` split horizontally
-`vsp` split vertically
+`vsp` split vertically (`:set splitright` to override the default split left)
 `ctrl ww` cycles though openend panes
